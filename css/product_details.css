@@ -1,0 +1,155 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.occupy {
+    height: 60px;
+}
+
+.history {
+    padding: 10px 0;
+}
+
+.history>span {
+    margin-right: 5px;
+}
+
+.yulan {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.yulan>div:first-child {
+    width: 55%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-top .swiper-slide {
+    height: 300px !important;
+}
+
+.gallery-thumbs .swiper-slide {
+    height: 100px !important;
+    width: 25%;
+}
+
+.gallery-top {
+    height: 80%;
+    width: 100%;
+}
+
+.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
+
+.youbianwenzi {
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #5e7387;
+    width: 45%;
+    line-height: 1.5;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.xian {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 0;
+    border-top: 1px solid #e4eaec;
+}
+
+.xiaobiaoge td {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.c-left {
+    width: 75%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.c-right {
+    width: 25%;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.c-left>div,
+.c-right>div {
+    padding: 30px;
+}
+
+.c-title {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e4eaec;
+    font-size: 16px;
+}
+
+.c-title>div {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.c-title>div.active {
+    background-color: #018AE2;
+    color: white;
+}
+
+.containers {
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 300;
+    color: #222;
+}
+
+h3 {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.c-right img {
+    width: 100%;
+}
+
+.y-jiage {
+    font-size: 24px;
+}
+
+.y-reminbi {
+    color: #F40;
+}
+
+.y-qian {
+    color: #F40;
+    font-size: 30px;
+}
+
+
+/*.xiaobiaoge td:nth-child(1){
+	text-align: right;
+}*/

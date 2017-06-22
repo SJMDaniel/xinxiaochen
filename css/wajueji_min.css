@@ -1,0 +1,163 @@
+@media only screen and (max-width: 768px) {
+    .daohang {
+        position: fixed;
+        /*background-color: #018ae2;*/
+        background-color: white;
+        bottom: 0;
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        height: 50px;
+        /*box-shadow: 0 2px 4px rgba(0,0,0,.2);*/
+        border-top: 1px solid rgba(0, 0, 0, .2);
+    }
+    .yougedneglu {
+        position: fixed;
+        top: 0;
+        line-height: 60px;
+        font-size: 16px;
+        color: white;
+        right: 20px;
+    }
+    .n-right>div {
+        padding: 0;
+        margin-right: 0;
+        font-size: 1.4rem;
+        height: 50px;
+        line-height: 25px;
+        color: #a09d9d;
+    }
+    .n-right .ion-arrow-down-b {
+        display: none;
+    }
+    .n-right>div.active {
+        /*background-color: white;*/
+        color: #018ae2;
+    }
+    .n-right>div.active:hover {
+        color: #018AE2;
+    }
+    .n-right>div:hover {
+        background-color: initial;
+        color: #018ae2;
+        cursor: pointer;
+    }
+    .m-panel {
+        width: 70%;
+        padding: 30px 20px 20px;
+    }
+    .m-form-control:focus~.m-form-label {
+        top: -18px;
+    }
+    .m-form-group+.m-form-group {
+        margin-top: 20px;
+    }
+    .m-form-label.in {
+        top: -18px;
+    }
+    .swiper-container {
+        height: 400px;
+    }
+    .tianzige {
+        width: 100%;
+    }
+    .tianzige .pull-left {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        height: auto;
+    }
+    .tianzige .pull-left:nth-child(2n) {
+        height: 200px;
+    }
+    .tianzige .ib-vertical-align:before {
+        display: none;
+    }
+    .tianzige p {
+        font-size: 17px;
+    }
+    .n-right>.pull-left>div:first-child {
+        display: block;
+        font-size: 24px;
+    }
+    #xinwenzixun,
+    #guanyuwomen {
+        display: none;
+    }
+    .t-t {
+        font-size: 24px;
+    }
+    .h-fenlei {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .ansegezi .pull-left {
+        width: 100%;
+    }
+    .xiaotiao>div {
+        width: 100%;
+    }
+    .xiaotu .pull-left {
+        width: 100%;
+    }
+    .news>div {
+        width: 100%;
+    }
+    .news .n-block {
+        width: 100%;
+    }
+    .news .table-left,
+    .news .table-right {
+        display: block;
+    }
+    .news .table-left img,
+    .news .table-right img {
+        width: 100%;
+    }
+    .news .table-left {
+        padding-right: 0;
+    }
+    .about>div {
+        width: 100%;
+    }
+    .love-link,
+    .footer,
+    .footer2 {
+        display: none;
+    }
+    .nav {
+        width: 100%;
+        display: -webkit-flex;
+        display: block;
+    }
+    .nav>div {
+        width: 100%;
+    }
+    .wazuo {
+        width: 100%;
+    }
+    .wayou {
+        display: none;
+    }
+    .mains {
+        min-width: 100%;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .wajueji-block {
+        display: block;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        /* margin: 0 2.5%; */
+    }
+    .daohang .clearfix:before,
+    .daohang .clearfix:after {
+        content: '';
+        display: none;
+    }
+}

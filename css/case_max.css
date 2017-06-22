@@ -1,0 +1,50 @@
+.mains{
+	min-width: 1200px;
+}
+.m-block{
+	width: 50%;
+	height: 500px;
+	position: relative;
+}
+.m-lay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	opacity: .7;
+	transition: background-color .3s;
+}
+.m-block:hover .m-lay{
+	background-color: rgba(1,138,226,.7);
+}
+@media only screen and (min-width: 1200px) {
+	.m-block{
+		width: 33.33333%;
+	}
+}
+
+h3{
+	font-size: 24px;
+	font-weight: 400;
+}
+.m-liulan{
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid white;
+	padding: 6px 15px;
+	transition: background-color .3s,color .3s; 
+}
+.m-liulan:hover{
+	background-color: #FFF000;
+	color: #555;
+}
+.more{
+	padding: 10px 0;
+	background-color: #89bceb ;
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.more:hover{
+	background-color: white;
+	color: #018ae2;
+}
